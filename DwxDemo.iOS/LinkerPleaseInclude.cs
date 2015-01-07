@@ -3,13 +3,16 @@
 //    Defines the LinkerPleaseInclude type.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
+
+
 namespace DwxDemo.iOS
 {
     using System;
     using System.Collections.Specialized;
     using System.Windows.Input;
 
-    using MonoTouch.UIKit;
+    using UIKit;
+    using Foundation;
 
     /// <summary>
     /// Defines the LinkerPleaseInclude type.
@@ -81,7 +84,7 @@ namespace DwxDemo.iOS
         public void Include(UIDatePicker uiDatePicker)
         {
             uiDatePicker.Date = uiDatePicker.Date.AddSeconds(1);
-            uiDatePicker.ValueChanged += (sender, args) => { uiDatePicker.Date = DateTime.MaxValue; };
+            uiDatePicker.ValueChanged += (sender, args) => { uiDatePicker.Date = NSDate.DistantFuture; };
         }
 
         /// <summary>

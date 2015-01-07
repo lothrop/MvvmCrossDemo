@@ -9,8 +9,8 @@ namespace DwxDemo.iOS
     using Cirrious.MvvmCross.Touch.Platform;
     using Cirrious.MvvmCross.Touch.Views.Presenters;
     using Cirrious.MvvmCross.ViewModels;
-    using MonoTouch.Foundation;
-    using MonoTouch.UIKit;
+    using Foundation;
+    using UIKit;
 
     /// <summary>
     /// The UIApplicationDelegate for the application. This class is responsible for launching the 

@@ -5,7 +5,7 @@
 // --------------------------------------------------------------------------------------------------------------------
 namespace DwxDemo.iOS
 {
-    using MonoTouch.UIKit;
+    using UIKit;
 
     /// <summary>
     ///    Defines the Main type.

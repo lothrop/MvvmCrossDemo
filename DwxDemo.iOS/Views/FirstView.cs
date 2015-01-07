@@ -5,13 +5,12 @@
 // --------------------------------------------------------------------------------------------------------------------
 namespace DwxDemo.iOS.Views
 {
-    using System.Drawing;
-
     using Cirrious.MvvmCross.Binding.BindingContext;
 
     using Core.ViewModels;
-    using MonoTouch.Foundation;
-    using MonoTouch.UIKit;
+    using CoreGraphics;
+    using Foundation;
+    using UIKit;
 
     /// <summary>
     /// Defines the FirstView type.
@@ -31,11 +30,11 @@ namespace DwxDemo.iOS.Views
 
             base.ViewDidLoad();
 
-            UILabel uiLabel = new UILabel(new RectangleF(10, 10, 300, 40));
+            UILabel uiLabel = new UILabel(new CGRect(10, 10, 300, 40));
             View.AddSubview(uiLabel);
-            UITextField uiTextField = new UITextField(new RectangleF(10, 50, 300, 40));
+            UITextField uiTextField = new UITextField(new CGRect(10, 50, 300, 40));
             View.AddSubview(uiTextField);
-            UIButton uiButton = new UIButton(new RectangleF(10, 90, 300, 40));
+            UIButton uiButton = new UIButton(new CGRect(10, 90, 300, 40));
             uiButton.SetTitle("Download", UIControlState.Normal);
             uiButton.SetTitleColor(UIColor.Blue, UIControlState.Normal);
             View.AddSubview(uiButton);
