@@ -13,7 +13,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>6.0</string>
+	<string>8.1</string>
 	<key>CFBundleDisplayName</key>
 	<string>DwxDemo.iOS</string>
 	<key>CFBundleIdentifier</key>
