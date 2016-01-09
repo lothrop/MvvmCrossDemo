@@ -15,7 +15,7 @@
 	<key>MinimumOSVersion</key>
 	<string>8.1</string>
 	<key>CFBundleDisplayName</key>
-	<string>DwxDemo.iOS</string>
+	<string>MvvmCrossDemo.iOS</string>
 	<key>CFBundleIdentifier</key>
 	<string>1</string>
 	<key>CFBundleVersion</key>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2014/deployment" AppPlatformVersion="8.1">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{7c4ab594-59b6-4dd9-8223-6bd82701dec2}" Title="DwxDemo.WindowsPhone" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="WindowsPhoneTemplate author" Description="Sample description" Publisher="WindowsPhoneTemplate" PublisherID="{5df8ab00-870a-42ef-80f6-b15dab25ca9a}">
+  <App xmlns="" ProductID="{7c4ab594-59b6-4dd9-8223-6bd82701dec2}" Title="MvvmCrossDemo.WindowsPhone" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="WindowsPhoneTemplate author" Description="Sample description" Publisher="WindowsPhoneTemplate" PublisherID="{5df8ab00-870a-42ef-80f6-b15dab25ca9a}">
     <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_GAMERSERVICES" />
