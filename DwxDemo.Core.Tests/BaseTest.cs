@@ -5,11 +5,11 @@
 // --------------------------------------------------------------------------------------------------------------------
 namespace DwxDemo.Core.Tests
 {
-    using Cirrious.CrossCore.Core;
-    using Cirrious.CrossCore.Platform;
-    using Cirrious.MvvmCross.Platform;
-    using Cirrious.MvvmCross.Test.Core;
-    using Cirrious.MvvmCross.Views;
+    using MvvmCross.Platform.Core;
+    using MvvmCross.Platform.Platform;
+    using MvvmCross.Core.Platform;
+    using MvvmCross.Test.Core;
+    using MvvmCross.Core.Views;
     using Mocks;
     using NUnit.Framework;
 

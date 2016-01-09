@@ -5,8 +5,8 @@
 // --------------------------------------------------------------------------------------------------------------------
 namespace DwxDemo.WindowsPhone
 {
-    using Cirrious.MvvmCross.ViewModels;
-    using Cirrious.MvvmCross.WindowsPhone.Platform;
+    using MvvmCross.Core.ViewModels;
+    using MvvmCross.WindowsPhone.Platform;
     using Microsoft.Phone.Controls;
 
     /// <summary>

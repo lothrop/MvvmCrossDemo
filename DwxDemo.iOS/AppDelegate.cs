@@ -5,10 +5,10 @@
 // --------------------------------------------------------------------------------------------------------------------
 namespace DwxDemo.iOS
 {
-    using Cirrious.CrossCore;
-    using Cirrious.MvvmCross.Touch.Platform;
-    using Cirrious.MvvmCross.Touch.Views.Presenters;
-    using Cirrious.MvvmCross.ViewModels;
+    using MvvmCross.Platform;
+    using MvvmCross.iOS.Platform;
+    using MvvmCross.iOS.Views.Presenters;
+    using MvvmCross.Core.ViewModels;
     using Foundation;
     using UIKit;
 
@@ -35,7 +35,7 @@ namespace DwxDemo.iOS
         {
             this.window = new UIWindow(UIScreen.MainScreen.Bounds);
 
-            MvxTouchViewPresenter presenter = new MvxTouchViewPresenter(this, this.window);
+            MvxIosViewPresenter presenter = new MvxIosViewPresenter(this, this.window);
 
             Setup setup = new Setup(this, presenter);
             setup.Initialize();

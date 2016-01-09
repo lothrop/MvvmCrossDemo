@@ -8,8 +8,8 @@ namespace DwxDemo.Core.ViewModels
     using System;
     using System.Linq.Expressions;
 
-    using Cirrious.CrossCore;
-    using Cirrious.MvvmCross.ViewModels;
+    using MvvmCross.Platform;
+    using MvvmCross.Core.ViewModels;
 
     /// <summary>
     ///    Defines the BaseViewModel type.

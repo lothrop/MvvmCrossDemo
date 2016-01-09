@@ -7,7 +7,7 @@ namespace DwxDemo.Core.Tests
 {
     using System;
     using System.Diagnostics;
-    using Cirrious.CrossCore.Platform;
+    using MvvmCross.Platform.Platform;
 
     /// <summary>
     /// Defines the TestTrace type.

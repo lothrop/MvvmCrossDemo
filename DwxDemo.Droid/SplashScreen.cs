@@ -7,7 +7,7 @@ namespace DwxDemo.Droid
 {
     using Android.App;
 
-    using Cirrious.MvvmCross.Droid.Views;
+    using MvvmCross.Droid.Views;
 
     /// <summary> 
     /// Defines the SplashScreen type.

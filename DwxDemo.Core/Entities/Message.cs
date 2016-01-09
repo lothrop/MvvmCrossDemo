@@ -5,7 +5,7 @@
 // --------------------------------------------------------------------------------------------------------------------
 namespace DwxDemo.Core.Entities
 {
-    using Cirrious.MvvmCross.Plugins.Messenger;
+    using MvvmCross.Plugins.Messenger;
 
     /// <summary>
     ///    Defines the Message type.

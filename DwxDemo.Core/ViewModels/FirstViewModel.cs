@@ -9,7 +9,7 @@ using System.Net.Http;
 namespace DwxDemo.Core.ViewModels
 {
     using System.Windows.Input;
-    using Cirrious.MvvmCross.ViewModels;
+    using MvvmCross.Core.ViewModels;
 
     /// <summary>
     /// Define the FirstViewModel type.
@@ -42,10 +42,7 @@ namespace DwxDemo.Core.ViewModels
         /// Note the ViewModel inside of ShowViewModel needs to change!
         /// </para>
         /// </summary>
-        public ICommand MyCommand
-        {
-            get { return this.myCommand ?? (this.myCommand = new MvxCommand(this.Show)); }
-        }
+        public ICommand MyCommand => this.myCommand ?? (this.myCommand = new MvxCommand(this.Show));
 
         /// <summary>
         /// Show the view model.

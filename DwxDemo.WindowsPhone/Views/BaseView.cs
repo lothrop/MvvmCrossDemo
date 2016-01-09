@@ -5,7 +5,7 @@
 // --------------------------------------------------------------------------------------------------------------------
 namespace DwxDemo.WindowsPhone.Views
 {
-    using Cirrious.MvvmCross.WindowsPhone.Views;
+    using MvvmCross.WindowsPhone.Views;
 
     /// <summary>
     /// Defines the BaseView type.

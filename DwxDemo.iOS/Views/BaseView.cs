@@ -5,7 +5,7 @@
 // --------------------------------------------------------------------------------------------------------------------
 namespace DwxDemo.iOS.Views
 {
-    using Cirrious.MvvmCross.Touch.Views;
+    using MvvmCross.iOS.Views;
 
     using Foundation;
     using UIKit;

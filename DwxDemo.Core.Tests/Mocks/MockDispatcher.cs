@@ -8,9 +8,9 @@ namespace DwxDemo.Core.Tests.Mocks
     using System;
     using System.Collections.Generic;
 
-    using Cirrious.CrossCore.Core;
-    using Cirrious.MvvmCross.ViewModels;
-    using Cirrious.MvvmCross.Views;
+    using MvvmCross.Platform.Core;
+    using MvvmCross.Core.ViewModels;
+    using MvvmCross.Core.Views;
 
     /// <summary>
     /// Defines the MockDispatcher type.

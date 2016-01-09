@@ -5,8 +5,8 @@
 // --------------------------------------------------------------------------------------------------------------------
 namespace DwxDemo.Core
 {
-    using Cirrious.CrossCore.IoC;
-    using Cirrious.MvvmCross.ViewModels;
+    using MvvmCross.Platform.IoC;
+    using MvvmCross.Core.ViewModels;
     using DwxDemo.Core.ViewModels;
 
     /// <summary>
